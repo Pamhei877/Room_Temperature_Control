@@ -100,4 +100,5 @@ void loop() {
   Serial.print(t);
   Serial.println(" *C");
   Blynk.virtualWrite(V1,t);
+  delay(1000);
 }
