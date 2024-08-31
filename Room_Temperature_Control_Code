@@ -80,6 +80,7 @@ void loop() {
     
   }
   else if(t<tempmin){
+    digitalWrite(relay_1,LOW);
     digitalWrite(LED2,1);
     Blynk.virtualWrite(V3,1);
     Blynk.virtualWrite(V2,0);
